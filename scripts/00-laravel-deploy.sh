@@ -12,4 +12,4 @@ echo "Running migrations..."
 php artisan migrate --force
 
 echo "npm run build..."
-npm run build
+apk add npm && npm run build
